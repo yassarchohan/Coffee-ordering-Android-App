@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yassarchohan.coffeeorderingapp.customersmenu">
+
+
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="25sp"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="top"/>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/customeizetext"
+        android:text="1.   Coffee "/>
+
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/customeizetext"
+        android:text="2.   Tea  "/>
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/customeizetext"
+        android:text="3.   Green Tea"/>
+
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/customeizetext"
+        android:text="4.   Espresso "/>
+
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/customeizetext"
+        android:text="5.   Black coffee"/>
+
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/customeizetext"
+        android:text="6.    Latte"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="45dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/customeizetext"
+                android:text="Rs.80"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginleft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/customeizetext"
+                android:text="Rs.60"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginleft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/customeizetext"
+                android:text="Rs.50"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginleft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/customeizetext"
+                android:text="Rs.120"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginleft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/customeizetext"
+                android:text="Rs.100"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginleft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/customeizetext"
+                android:text="Rs.110"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
